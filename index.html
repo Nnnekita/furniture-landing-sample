@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MöbelHaus - Премиальная мебель для вашего дома</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">Möbel<span>Haus</span></div>
+                <ul class="nav-links">
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#catalog">Каталог</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#features">Преимущества</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <a href="#contact" class="btn btn-primary">Оставить заявку</a>
+                </div>
+                <div class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="hero-badge">Новая коллекция 2026</span>
+                    <h1 class="hero-title">Создайте пространство вашей мечты</h1>
+                    <p class="hero-description">Премиальная мебель от ведущих европейских дизайнеров. Качество, которое ощущается в каждой детали.</p>
+                    <div class="hero-buttons">
+                        <a href="#catalog" class="btn btn-primary btn-lg">Смотреть каталог</a>
+                        <a href="#about" class="btn btn-text">Узнать больше →</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Лет опыта</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5000+</span>
+                            <span class="stat-label">Клиентов</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">200+</span>
+                            <span class="stat-label">Моделей</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&h=1000&fit=crop" alt="Современная мебель">
+                    </div>
+                    <div class="floating-card">
+                        <div class="floating-card-icon">
+                            <img src="icons/star.svg" alt="Star">
+                        </div>
+                        <div class="floating-card-content">
+                            <span class="floating-card-title">Рейтинг 4.9</span>
+                            <span class="floating-card-text">Более 2000 отзывов</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="catalog" class="catalog">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Каталог</span>
+                <h2 class="section-title">Популярные категории</h2>
+                <p class="section-description">Выберите идеальную мебель для каждой комнаты вашего дома</p>
+            </div>
+            <div class="catalog-grid">
+                <div class="catalog-card">
+                    <div class="catalog-card-image">
+                        <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&h=400&fit=crop" alt="Гостиная">
+                        <div class="catalog-card-overlay">
+                            <span class="catalog-card-count">48 товаров</span>
+                        </div>
+                    </div>
+                    <div class="catalog-card-content">
+                        <h3>Гостиная</h3>
+                        <p>Диваны, кресла, журнальные столики и стеллажи</p>
+                        <a href="#" class="catalog-card-link">Смотреть →</a>
+                    </div>
+                </div>
+                <div class="catalog-card">
+                    <div class="catalog-card-image">
+                        <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600&h=400&fit=crop" alt="Спальня">
+                        <div class="catalog-card-overlay">
+                            <span class="catalog-card-count">36 товаров</span>
+                        </div>
+                    </div>
+                    <div class="catalog-card-content">
+                        <h3>Спальня</h3>
+                        <p>Кровати, матрасы, шкафы и прикроватные тумбы</p>
+                        <a href="#" class="catalog-card-link">Смотреть →</a>
+                    </div>
+                </div>
+                <div class="catalog-card">
+                    <div class="catalog-card-image">
+                        <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=400&fit=crop" alt="Кухня">
+                        <div class="catalog-card-overlay">
+                            <span class="catalog-card-count">52 товара</span>
+                        </div>
+                    </div>
+                    <div class="catalog-card-content">
+                        <h3>Кухня</h3>
+                        <p>Обеденные группы, стулья, кухонные гарнитуры</p>
+                        <a href="#" class="catalog-card-link">Смотреть →</a>
+                    </div>
+                </div>
+                <div class="catalog-card">
+                    <div class="catalog-card-image">
+                        <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=600&h=400&fit=crop" alt="Кабинет">
+                        <div class="catalog-card-overlay">
+                            <span class="catalog-card-count">24 товара</span>
+                        </div>
+                    </div>
+                    <div class="catalog-card-content">
+                        <h3>Кабинет</h3>
+                        <p>Письменные столы, офисные кресла, книжные шкафы</p>
+                        <a href="#" class="catalog-card-link">Смотреть →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Хиты продаж</span>
+                <h2 class="section-title">Популярные товары</h2>
+            </div>
+            <div class="featured-grid">
+                <div class="product-card">
+                    <div class="product-badge">Новинка</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=400&h=400&fit=crop" alt="Стул">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Стулья</span>
+                        <h3 class="product-name">Дизайнерский стул Eames</h3>
+                        <div class="product-price">
+                            <span class="product-current-price">12 900 ₽</span>
+                            <span class="product-old-price">15 900 ₽</span>
+                        </div>
+                        <button class="btn btn-primary btn-sm">В корзину</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge sale">-20%</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1540574163026-643ea20ade25?w=400&h=400&fit=crop" alt="Диван">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Диваны</span>
+                        <h3 class="product-name">Угловой диван Comfort</h3>
+                        <div class="product-price">
+                            <span class="product-current-price">89 900 ₽</span>
+                            <span class="product-old-price">112 000 ₽</span>
+                        </div>
+                        <button class="btn btn-primary btn-sm">В корзину</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1532372320572-cda25653a26d?w=400&h=400&fit=crop" alt="Стеллаж">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Стеллажи</span>
+                        <h3 class="product-name">Стеллаж Scandinavian</h3>
+                        <div class="product-price">
+                            <span class="product-current-price">24 500 ₽</span>
+                        </div>
+                        <button class="btn btn-primary btn-sm">В корзину</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge">Хит</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1503602642458-591677e7238e?w=400&h=400&fit=crop" alt="Кровать">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">Кровати</span>
+                        <h3 class="product-name">Кровать Royal Dream</h3>
+                        <div class="product-price">
+                            <span class="product-current-price">67 000 ₽</span>
+                            <span class="product-old-price">78 000 ₽</span>
+                        </div>
+                        <button class="btn btn-primary btn-sm">В корзину</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&h=600&fit=crop" alt="О нас">
+                    <div class="about-experience">
+                        <span class="about-experience-number">15</span>
+                        <span class="about-experience-text">лет создаём уют</span>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <span class="section-tag">О компании</span>
+                    <h2 class="section-title">Мебель, которая рассказывает вашу историю</h2>
+                    <p class="about-description">MöbelHaus — это больше, чем магазин мебели. Мы помогаем создавать пространства, в которых хочется жить, работать и вдохновляться.</p>
+                    <ul class="about-list">
+                        <li>
+                            <span class="about-list-icon">
+                                <img src="icons/check.svg" alt="Check">
+                            </span>
+                            <div>
+                                <strong>Экологичные материалы</strong>
+                                <p>Используем только сертифицированную древесину и безопасные покрытия</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="about-list-icon">
+                                <img src="icons/check.svg" alt="Check">
+                            </span>
+                            <div>
+                                <strong>Гарантия 5 лет</strong>
+                                <p>Уверены в качестве каждого изделия и даём расширенную гарантию</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="about-list-icon">
+                                <img src="icons/check.svg" alt="Check">
+                            </span>
+                            <div>
+                                <strong>Бесплатная доставка</strong>
+                                <p>Доставим и соберём мебель в удобное для вас время</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary btn-lg">Связаться с нами</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Преимущества</span>
+                <h2 class="section-title">Почему выбирают нас</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="icons/design.svg" alt="Design">
+                    </div>
+                    <h3>Дизайн-проект</h3>
+                    <p>Бесплатная консультация дизайнера и 3D-визуализация вашего интерьера</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="icons/delivery.svg" alt="Delivery">
+                    </div>
+                    <h3>Быстрая доставка</h3>
+                    <p>Доставка по городу за 24 часа. По России — от 3 дней</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="icons/assembly.svg" alt="Assembly">
+                    </div>
+                    <h3>Сборка мебели</h3>
+                    <p>Профессиональная сборка и установка мебели нашими мастерами</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="icons/installment.svg" alt="Installment">
+                    </div>
+                    <h3>Рассрочка 0%</h3>
+                    <p>Оплата в рассрочку до 12 месяцев без переплат и скрытых комиссий</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="icons/return.svg" alt="Return">
+                    </div>
+                    <h3>Возврат 30 дней</h3>
+                    <p>Не подошла мебель? Вернём деньги в течение 30 дней без вопросов</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="icons/quality.svg" alt="Quality">
+                    </div>
+                    <h3>Премиум качество</h3>
+                    <p>Работаем только с проверенными европейскими фабриками</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Отзывы</span>
+                <h2 class="section-title">Что говорят наши клиенты</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <img src="icons/star.svg" alt="Star">
+                        <img src="icons/star.svg" alt="Star">
+                        <img src="icons/star.svg" alt="Star">
+                        <img src="icons/star.svg" alt="Star">
+                        <img src="icons/star.svg" alt="Star">
+                    </div>
+                    <p class="testimonial-text">"Заказывали кухню под ключ. Дизайнер предложил отличное решение, которое идеально вписалось в наше пространство. Качество на высоте!"</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">АМ</div>
+                        <div class="testimonial-info">
+                            <strong>Анна Михайлова</strong>
+                            <span>Москва</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <img src="icons/star.svg" alt="Star">
+                        <img src="icons/star.svg" alt="Star">
+                        <img src="icons/star.svg" alt="Star">
+                        <img src="icons/star.svg" alt="Star">
+                        <img src="icons/star.svg" alt="Star">
+                    </div>
+                    <p class="testimonial-text">"Диван превзошёл все ожидания. Доставили на следующий день, собрали за 20 минут. Очень довольны покупкой, рекомендуем!"</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">ДК</div>
+                        <div class="testimonial-info">
+                            <strong>Дмитрий Козлов</strong>
+                            <span>Санкт-Петербург</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <img src="icons/star.svg" alt="Star">
+                        <img src="icons/star.svg" alt="Star">
+                        <img src="icons/star.svg" alt="Star">
+                        <img src="icons/star.svg" alt="Star">
+                        <img src="icons/star.svg" alt="Star">
+                    </div>
+                    <p class="testimonial-text">"Обставили весь офис в MöbelHaus. Отличное соотношение цены и качества. Менеджер помог подобрать всё до мелочей."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">ЕС</div>
+                        <div class="testimonial-info">
+                            <strong>Елена Соколова</strong>
+                            <span>Казань</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <span class="section-tag">Контакты</span>
+                    <h2 class="section-title">Свяжитесь с нами</h2>
+                    <p>Оставьте заявку и наш менеджер свяжется с вами в течение 15 минут</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">
+                                <img src="icons/location.svg" alt="Location">
+                            </span>
+                            <div>
+                                <strong>Адрес шоурума</strong>
+                                <p>г. Москва, ул. Мебельная, д. 42</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">
+                                <img src="icons/phone.svg" alt="Phone">
+                            </span>
+                            <div>
+                                <strong>Телефон</strong>
+                                <p>+7 (800) 555-35-35</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">
+                                <img src="icons/email.svg" alt="Email">
+                            </span>
+                            <div>
+                                <strong>Email</strong>
+                                <p>info@mobelhaus.ru</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">
+                                <img src="icons/clock.svg" alt="Clock">
+                            </span>
+                            <div>
+                                <strong>Режим работы</strong>
+                                <p>Пн-Вс: 10:00 - 21:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <h3>Оставить заявку</h3>
+                        <div class="form-group">
+                            <input type="text" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Телефон" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Сообщение" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg btn-full">Отправить заявку</button>
+                        <p class="form-note">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">Möbel<span>Haus</span></div>
+                    <p>Премиальная мебель для вашего дома с 2011 года</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <img src="icons/vk.svg" alt="VK">
+                        </a>
+                        <a href="#" class="social-link">
+                            <img src="icons/telegram.svg" alt="Telegram">
+                        </a>
+                        <a href="#" class="social-link">
+                            <img src="icons/youtube.svg" alt="YouTube">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Каталог</h4>
+                    <ul>
+                        <li><a href="#">Гостиная</a></li>
+                        <li><a href="#">Спальня</a></li>
+                        <li><a href="#">Кухня</a></li>
+                        <li><a href="#">Кабинет</a></li>
+                        <li><a href="#">Прихожая</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Компания</h4>
+                    <ul>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Доставка</a></li>
+                        <li><a href="#">Оплата</a></li>
+                        <li><a href="#">Гарантия</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Поддержка</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Возврат</a></li>
+                        <li><a href="#">Сборка</a></li>
+                        <li><a href="#">Блог</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 MöbelHaus. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
