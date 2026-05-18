@@ -1,85 +1,48 @@
-# MöbelHaus — Лендинг мебельного магазина
+# Furniture Landing — Лендинг мебельной компании
 
-Современный адаптивный лендинг для премиального мебельного магазина. Создан с использованием чистого HTML, CSS и JavaScript без фреймворков.
+[![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-Deployed-32CD32?style=for-the-badge&logo=github)](https://nnnekita.github.io/furniture-landing-sample/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)]()
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)]()
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
-## Демо
+Адаптивный лендинг для мебельной компании с современным дизайном.
 
-🌐 [Посмотреть демо](https://nnnekita.github.io/furniture-landing-sample/)
+## ✨ Возможности
 
-## Скриншоты
+- 📱 Полностью адаптивный дизайн
+- 🎨 Современный минималистичный стиль
+- 🖼️ Галерея товаров
+- 📝 Контактная форма
+- ⚡ Быстрая загрузка
 
-### Главная страница
-![Hero секция](screenshots/hero.png)
-
-### Каталог
-![Каталог](screenshots/catalog.png)
-
-### Преимущества
-![Преимущества](screenshots/features.png)
-
-### Контакты
-![Контакты](screenshots/contact.png)
-
-## Технологии
+## 🛠 Стек
 
 - **HTML5** — семантическая разметка
-- **CSS3** — Grid, Flexbox, CSS Variables, анимации, адаптивный дизайн
-- **JavaScript** — Intersection Observer, плавный скролл, мобильное меню, обработка форм
-- **SVG-иконки** — кастомные иконки без зависимостей
+- **CSS3** — стилизация, адаптивная вёрстка
 
-## Структура проекта
-
-```
-furniture-landing/
-├── index.html          # Главная страница
-├── styles.css          # Стили
-├── script.js           # Интерактивность
-├── icons/              # SVG-иконки
-│   ├── design.svg
-│   ├── delivery.svg
-│   ├── assembly.svg
-│   ├── installment.svg
-│   ├── return.svg
-│   ├── quality.svg
-│   ├── location.svg
-│   ├── phone.svg
-│   ├── email.svg
-│   ├── clock.svg
-│   ├── check.svg
-│   ├── star.svg
-│   ├── vk.svg
-│   ├── telegram.svg
-│   └── youtube.svg
-└── screenshots/        # Скриншоты для README
-```
-
-## Секции лендинга
-
-1. **Шапка** — фиксированная навигация с эффектом при скролле
-2. **Hero** — главный экран с CTA и статистикой
-3. **Каталог** — 4 категории мебели с карточками
-4. **Популярные товары** — карточки товаров с ценами и скидками
-5. **О компании** — информация и преимущества
-6. **Почему выбирают нас** — 6 карточек с иконками
-7. **Отзывы** — отзывы клиентов с рейтингом
-8. **Контакты** — контактная информация и форма заявки
-9. **Футер** — навигация и социальные сети
-
-## Особенности
-
-- Полностью адаптивный дизайн (мобильные, планшеты, десктоп)
-- Плавные анимации при скролле (Intersection Observer)
-- Фиксированная шапка с blur-эффектом
-- Мобильное меню-бургер
-- Форма обратной связи с визуальным подтверждением отправки
-- Кастомные SVG-иконки без внешних зависимостей
-- Шрифты Google Fonts (Playfair Display + Inter)
-
-## Запуск
-
-Просто откройте `index.html` в браузере:
+## 🚀 Быстрый старт
 
 ```bash
-# Или запустите локальный сервер
-npx serve .
+# Клонирование репозитория
+git clone https://github.com/Nnnekita/furniture-landing-sample.git
+cd furniture-landing-sample
+
+# Открыть index.html в браузере
 ```
+
+## 🌐 Демо
+
+[Живая демонстрация](https://nnnekita.github.io/furniture-landing-sample/)
+
+## 📝 Лицензия
+
+MIT
+
+## 👤 Автор
+
+**Nnnekita**
+- GitHub: [@Nnnekita](https://github.com/Nnnekita)
+
+---
+
+© 2026 Nnnekita. Создано на HTML и CSS.
